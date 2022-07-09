@@ -1,0 +1,20 @@
+{
+  "name": "encrypted-chat-tutorial",
+  "version": "1.0.0",
+  "node": "8.1.4",
+  "license": "MIT",
+  "author": "ritwik.rishabh26@gmail.com",
+  "description": "End-to-end RSA encrypted chat application.",
+  "main": "app.js",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.15.3",
+    "socket.io": "2.0.3"
+  }
+}
